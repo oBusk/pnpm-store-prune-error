@@ -22,5 +22,7 @@ jobs:
         run: rm -rf node_modules
 
       - run: pnpm store status
+        if: always()
 
       - run: pnpm store prune
+        if: always()
