@@ -18,5 +18,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Add prunable package to store
-        run: pnpm store add eslint
+      - name: Remove node_modules
+        run: rm -rf node_modules

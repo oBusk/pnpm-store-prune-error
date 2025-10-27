@@ -4,7 +4,9 @@
   "private": true,
   "description": "Reproduction of pnpm store prune error",
   "packageManager": "pnpm@10.19.0",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^9.38.0"
+  },
   "devEngines": {
     "runtime": {
       "name": "node",
